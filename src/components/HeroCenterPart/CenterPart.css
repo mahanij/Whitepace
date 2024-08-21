@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    margin-top: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-part {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 360px;
+}
+
+.img {
+    width: 500px;
+    height: 400px;
+    background-color: #C4DEFD;
+}
+
+button {
+    background-color: #4F9CF9;
+}

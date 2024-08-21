@@ -1,0 +1,72 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+/* Button Styles */
+.buttons, .trial-main {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login {
+    background-color: #f0ad4e;
+}
+
+.trial, .trial-main {
+    background-color: #3498db;
+}
+
+/* Main Content Styles */
+main {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
